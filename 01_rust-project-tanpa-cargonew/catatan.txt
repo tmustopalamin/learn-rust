@@ -1,0 +1,12 @@
+cara compile file .rs dengan cara
+1.rustc namafile.rs
+2.setelah itu akan menghasilkan 2 file 1 exe dan 1 pdb
+3.untuk execute program tinggal ketik nama file yg .exe , contoh hello_world.exe -> hello_world 
+
+
+membuat package dengan Cargo.toml, fungsinya agar project rust bisa otomatis compile dan execute
+cara membuatnya adalah 
+1.bikin folder src, lalu di dalam src harus ada file yg rust mengenalinya salah satunya main.rs
+2.ketik program di main.rs
+3.cara build: di root folder tinggal jalankan "cargo build", akan menghasilkan folder target
+4.cara run: ketik cargo run

@@ -18,6 +18,8 @@ static mut Z: i32 = 123; //mutable
                          //info tambahan
                          //penggunaan mut harus dengan scope unsafe{ }, unsafe yg berarti kita akan berhati2 pada variabel tersebut, jangan sampai beberapa thread/proses merubah variabel tersebut secara langsung
 
+//{} , double bracket itu namanya adalah macro
+
 fn fundamental_data_types() {
     //info
     // u -> unsigned integer (ga ada negatif > 0 ...)
